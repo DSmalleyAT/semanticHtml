@@ -1,0 +1,13 @@
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    left: 4px;
+    top: 26%;
+    color: yellow;
+}
