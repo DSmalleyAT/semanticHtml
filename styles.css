@@ -1,3 +1,9 @@
+body{
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+}
 .banner{
     position: relative;
 }
@@ -5,9 +11,25 @@
 .banner img{
     max-width: 100%;
 }
-.banner .welcome{
-    position: absolute;
-    left: 4px;
-    top: 26%;
-    color: yellow;
+
+.gallery{
+    position: relative;
+}
+
+.gallery img{
+    max-width: 50%;
+}
+
+.signup{
+    position: fixed;
+    width: 15%;
+    bottom: 10px;
+    right: 10px;
+    background-color: whitesmoke;
+    border: 10px solid black;
+}
+
+article{
+    position: relative;
+    max-width: 80%;
 }
